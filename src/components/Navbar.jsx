@@ -6,7 +6,6 @@ const Navbar = ({ href = "/", label = "Default" }) => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
 
-  // Handle scroll effect for navbar background
   useEffect(() => {
     const handleScroll = () => {
       const isScrolled = window.scrollY > 20;
